@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  /* Primary Lavender and Purple Palette */
+  --color-primary-50: #F5EEFA;  /* Very Light Lavender */
+  --color-primary-100: #D4BEE4; /* Light Purple/Lavender */
+  --color-primary-200: #C2A7D4; /* Medium-Light Lavender */
+  --color-primary-500: #9B7EBD; /* Medium Lavender/Purple */
+  --color-primary-600: #7E5F9E; /* Darker Purple Hover */
+  --color-primary-700: #3B1E54; /* Deep Purple Accent */
+  --color-primary-900: #1A0D26; /* Darkest Purple Black */
+
+  /* Override generic slates/grays with our custom palette elements */
+  --color-slate-50: #EEEEEE;    /* Requested Light Gray */
+  --color-slate-100: #EEEEEE;   /* Requested Light Gray */
+  --color-slate-200: #D4BEE4;   /* Light Lavender Borders for high-contrast/cohesion */
+  --color-slate-300: #C2A7D4;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #EEEEEE;
+  color: #000000;
+}
+
+/* Custom transitions and scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}

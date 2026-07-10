@@ -1,0 +1,6 @@
+{
+  "name": "Weekly Report Generator & Team Dashboard",
+  "description": "Full-stack weekly progress tracker, manager dashboard with rich analytics, project CRUD, and a Gemini-powered team analytics assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,194 @@
+{
+  "users": [
+    {
+      "id": "usr-manager-1",
+      "fullName": "Sarah Connor (Manager)",
+      "email": "sarah@company.com",
+      "passwordHash": "$2b$10$KjggCT8MKf0PXA3JcUhsT.to2BDgZSvwCmD.jPunk7xuDvwUtWUF.",
+      "role": "MANAGER",
+      "createdAt": "2026-06-01T08:00:00.000Z"
+    },
+    {
+      "id": "usr-member-1",
+      "fullName": "John Doe",
+      "email": "john@company.com",
+      "passwordHash": "$2b$10$KjggCT8MKf0PXA3JcUhsT.BNpubvRqYQC7Su2rUS57mFzph1d75jG",
+      "role": "MEMBER",
+      "createdAt": "2026-06-01T09:00:00.000Z"
+    },
+    {
+      "id": "usr-member-2",
+      "fullName": "Jane Smith",
+      "email": "jane@company.com",
+      "passwordHash": "$2b$10$KjggCT8MKf0PXA3JcUhsT.CmBLSwo0aI.QUZIB2u44EURVHCV0P9C",
+      "role": "MEMBER",
+      "createdAt": "2026-06-02T10:00:00.000Z"
+    },
+    {
+      "id": "usr-m1yfveot7",
+      "fullName": "Bipuli methsani",
+      "email": "bipuli@gmail.com",
+      "passwordHash": "$2b$10$3VnyqNLXfVhprUTJy0B.helvxftF.gIdATinbUSBE00KI7eYokvbG",
+      "role": "MEMBER",
+      "createdAt": "2026-07-07T11:18:37.936Z"
+    },
+    {
+      "id": "usr-7xf7tqkm3",
+      "fullName": "Malsha Vayani",
+      "email": "m@gmail.com",
+      "passwordHash": "$2b$10$iancaUAXQCCuvoVd65AKduPlbTK5CHM1L76LlrtIr/K1z.6ZJ2MrC",
+      "role": "MANAGER",
+      "createdAt": "2026-07-08T20:02:28.317Z"
+    },
+    {
+      "id": "usr-faiyp55w4",
+      "fullName": "Bipuli Methsani",
+      "email": "bipuli1@gmail.com",
+      "passwordHash": "$2b$10$ojkj/qq8Nt/iFKhYMB/reOHfVpZQsa7wwrKp.wMg6.IyG6XFBYKki",
+      "role": "MEMBER",
+      "createdAt": "2026-07-09T22:23:33.149Z"
+    },
+    {
+      "id": "usr-vq6dp02qp",
+      "fullName": "Nethmi weerasinghe",
+      "email": "nethmi@gmail.com",
+      "passwordHash": "$2b$10$KbRiUGpe1YE0R2h/KAEMm.CcQ3XBsLGKFqn10O1NslAJMJVVr60Me",
+      "role": "MEMBER",
+      "createdAt": "2026-07-09T22:52:07.218Z"
+    },
+    {
+      "id": "usr-koj83d73v",
+      "fullName": "Janith Weerasignhe",
+      "email": "janith@gmail.com",
+      "passwordHash": "$2b$10$wCcZORcnv/AcoMS3qLWMsu3lniPZ9qRL60htI3PqJGr7Omy645J5W",
+      "role": "MEMBER",
+      "createdAt": "2026-07-10T07:24:10.154Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj-alpha",
+      "name": "Project Alpha",
+      "description": "The core product revamp with modern UI components and design systems.",
+      "createdAt": "2026-06-01T08:30:00.000Z"
+    },
+    {
+      "id": "prj-beta",
+      "name": "Project Beta",
+      "description": "Next-gen machine learning data pipeline and telemetry extraction.",
+      "createdAt": "2026-06-05T09:00:00.000Z"
+    },
+    {
+      "id": "prj-omega",
+      "name": "Project Omega",
+      "description": "Migration of legacy databases to secure Cloud SQL relational instances.",
+      "createdAt": "2026-06-10T11:15:00.000Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep-1",
+      "weekStart": "2026-06-22",
+      "weekEnd": "2026-06-28",
+      "projectId": "prj-alpha",
+      "userId": "usr-member-1",
+      "completedTasks": "Designed the landing page mockup\nCreated initial Tailwind components\nSet up React Router DOM routing",
+      "plannedTasks": "Integrate with the Express API server\nImplement user auth context\nAdd mock reports",
+      "blockers": "Waiting on final feedback on styling guide.",
+      "hoursWorked": 38,
+      "notes": "Solid progress. Landing page looks extremely clean.",
+      "status": "SUBMITTED",
+      "submittedAt": "2026-06-28T18:30:00.000Z",
+      "createdAt": "2026-06-28T18:00:00.000Z"
+    },
+    {
+      "id": "rep-2",
+      "weekStart": "2026-06-22",
+      "weekEnd": "2026-06-28",
+      "projectId": "prj-beta",
+      "userId": "usr-member-2",
+      "completedTasks": "Set up Docker development containers\nConfigured FastAPI endpoint routes\nOptimized database indexing queries",
+      "plannedTasks": "Deploy preview image to Cloud Run\nRun integration tests suite",
+      "blockers": "AWS credential configuration pending manager approval.",
+      "hoursWorked": 42,
+      "notes": "Database queries are 40% faster after adding indices.",
+      "status": "SUBMITTED",
+      "submittedAt": "2026-06-27T17:00:00.000Z",
+      "createdAt": "2026-06-27T16:45:00.000Z"
+    },
+    {
+      "id": "rep-3",
+      "weekStart": "2026-06-29",
+      "weekEnd": "2026-07-05",
+      "projectId": "prj-alpha",
+      "userId": "usr-member-1",
+      "completedTasks": "Implemented Axios interceptors for JWT\nBuilt the Register and Login page forms\nCreated Dashboard navigation sidebar",
+      "plannedTasks": "Build manager dashboard charts\nAdd Project CRUD interfaces",
+      "blockers": "None",
+      "hoursWorked": 40,
+      "notes": "Auth state is fully persisted. Ready for the next phase.",
+      "status": "SUBMITTED",
+      "submittedAt": "2026-07-05T19:20:00.000Z",
+      "createdAt": "2026-07-05T19:00:00.000Z"
+    },
+    {
+      "id": "rep-4",
+      "weekStart": "2026-06-29",
+      "weekEnd": "2026-07-05",
+      "projectId": "prj-omega",
+      "userId": "usr-member-2",
+      "completedTasks": "Initiated data schema mapping mapping sheets\nDrafted firestore security rules blueprint",
+      "plannedTasks": "Coordinate database migration timelines\nTest export procedures",
+      "blockers": "Need team list for permission assignment.",
+      "hoursWorked": 35,
+      "notes": "Database export scripts verified on staging server. Still refining the migration timelines.",
+      "status": "DRAFT",
+      "createdAt": "2026-07-04T12:00:00.000Z"
+    },
+    {
+      "id": "rep-pru7actxc",
+      "weekStart": "2026-07-06",
+      "weekEnd": "2026-07-12",
+      "projectId": "prj-beta",
+      "userId": "usr-m1yfveot7",
+      "completedTasks": "Update Sign in page",
+      "plannedTasks": "Adding new functions to Landing page",
+      "blockers": "none",
+      "hoursWorked": 40,
+      "notes": "",
+      "status": "SUBMITTED",
+      "submittedAt": "2026-07-07T11:23:07.073Z",
+      "createdAt": "2026-07-07T11:23:07.073Z"
+    },
+    {
+      "id": "rep-e02iedtjj",
+      "weekStart": "2026-07-05",
+      "weekEnd": "2026-07-11",
+      "projectId": "prj-alpha",
+      "userId": "usr-vq6dp02qp",
+      "completedTasks": "Implemented JWT authentication",
+      "plannedTasks": "Improve dashboard charts",
+      "blockers": "Waiting for API requirements from the client",
+      "hoursWorked": 40,
+      "notes": "Authentication module completed successfully and ready for testing",
+      "status": "SUBMITTED",
+      "submittedAt": "2026-07-09T22:56:11.082Z",
+      "createdAt": "2026-07-09T22:56:11.082Z"
+    },
+    {
+      "id": "rep-rlodjjcl8",
+      "weekStart": "2026-07-06",
+      "weekEnd": "2026-07-12",
+      "projectId": "prj-omega",
+      "userId": "usr-koj83d73v",
+      "completedTasks": "Designed Dashboard layout",
+      "plannedTasks": "Add additional features for dashboard",
+      "blockers": "none ",
+      "hoursWorked": 20,
+      "notes": "",
+      "status": "SUBMITTED",
+      "submittedAt": "2026-07-10T07:27:50.512Z",
+      "createdAt": "2026-07-10T07:27:50.512Z"
+    }
+  ]
+}
